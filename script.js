@@ -33,7 +33,7 @@ const pages = {
         <p class="lead">Over 4,500 television models are on sale in Australia. Here is what drives their power use, and what the stars on the energy label actually mean.</p>
       </div></section>
  
-      <section class="section"><div class="container story">
+      <section class="section"><div class="container"><div class="story">
  
         <p class="story-intro">You are standing in front of two televisions. Both have five stars on the label. One is a 32-inch, the other is a 65-inch. Most people read that as "both are efficient". The data says something different.</p>
  
@@ -46,20 +46,20 @@ const pages = {
         <p>What is more, the spread widens as screens get bigger. At 32 inches the models sit in a narrow band. At 65 inches they run from roughly 50 watts up to 310. So two televisions of the same size can differ by six times. The model you pick matters as much as the size you pick.</p>
  
         <h2 class="story-h2">So what do the stars tell you?</h2>
-        <p>Not much about size. The star rating stays flat across the whole range, from small sets right up to 100 inches. Five stars shows up at nearly every size.</p>
+        <p>Not much about size. The star rating stays flat across the whole range, from 40 inches right up to 100 inches. Five stars shows up at nearly every size.</p>
         <figure class="chart">
           <img src="images/q6-stars-size.png" alt="Scatter plot of screen size against star rating. The points form a flat band with no upward or downward trend.">
           <figcaption>Star rating against screen size. The band is flat, so bigger screens are not rated worse.</figcaption>
         </figure>
-        <p>That is not a fault in the data. The star rating is worked out relative to screen size. So it tells you whether a television is efficient <em>for one that big</em>. It does not tell you what the television will cost to run.</p>
+        <p>That is not a fault in the data. The star rating is worked out relative to screen size. So it tells you whether a television is efficient <em>for a television that size</em>. It does not tell you what the television will cost to run.</p>
  
         <aside class="story-callout">
-          <strong>The short version</strong>
+          <h3 class="story-h3 callout-h">The short version</h3>
           <p>Use the stars to choose between televisions of the same size. Use the kWh per year figure to compare across sizes. If you are deciding between a 55 and a 65, the stars will not show you the difference in running cost. The kWh figure will.</p>
         </aside>
  
         <h2 class="story-h2">The rest of the picture</h2>
-        <p>Three things are worth knowing before you shop, even though none of them will decide your purchase.</p>
+        <p>Four things are worth knowing before you shop, even though none of them will decide your purchase.</p>
  
         <h3 class="story-h3">Almost everything on sale is LCD (LED)</h3>
         <figure class="chart">
@@ -75,7 +75,7 @@ const pages = {
         </figure>
         <p>55, 65 and 75 inches lead by a wide margin. Smaller sizes still exist, but mostly as bedroom and caravan sets.</p>
  
-        <h3 class="story-h3">Screen type looks like it matters, but mostly it doesn't</h3>
+        <h3 class="story-h3">Screen type</h3>
         <figure class="chart">
           <img src="images/q4-tech-power.png" alt="Bar chart of median power use by screen technology. LCD around 71 watts, LCD LED around 106, OLED around 113.">
           <figcaption>Median power in use, grouped by screen technology.</figcaption>
@@ -102,7 +102,7 @@ const pages = {
  
         <p class="story-source">Figures come from the Australian Government Energy Rating register, published on data.gov.au. Power figures are measured under a standard test, so your own use will differ. Check the current label before buying.</p>
  
-      </div></section>
+      </div></div></section>
  
       <section class="section section-alt"><div class="container television-layout">
         <div>
