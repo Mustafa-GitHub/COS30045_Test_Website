@@ -107,6 +107,22 @@ h2 { font-size: clamp(32px, 4vw, 48px); line-height: 1; }
 .genai-note { width: 100%; color: var(--muted); }
 .fade-in { animation: appear .45s ease both; }
 @keyframes appear { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+/* T03 data story */
+.story { max-width: 760px; }
+.story p { color: #56462f; font-size: 17px; line-height: 1.75; margin: 0 0 22px; }
+.story-intro { border-left: 3px solid var(--amber); color: var(--ink) !important; font-size: 19px !important; padding-left: 20px; }
+.story-h2 { font-size: clamp(28px, 3.4vw, 38px); margin: 52px 0 18px; }
+.story-h3 { font-size: 21px; margin: 40px 0 14px; }
+.story em { font-style: normal; font-weight: 700; }
+.chart { background: var(--white); border: 1px solid var(--line); border-radius: 8px; margin: 28px 0 30px; padding: 18px; }
+.chart img { border-radius: 4px; display: block; height: auto; max-width: 100%; }
+.chart figcaption { color: var(--muted); font-size: 13px; line-height: 1.5; margin-top: 14px; }
+.story-callout { background: var(--sand); border-radius: 8px; margin: 40px 0; padding: 28px 32px; }
+.story-callout strong { display: block; font: 700 22px "Space Grotesk", sans-serif; letter-spacing: -0.04em; margin-bottom: 12px; }
+.story-callout p { color: var(--ink) !important; margin: 0 !important; }
+.story-source { border-top: 1px solid var(--line); color: var(--muted) !important; font-size: 13px !important; line-height: 1.6 !important; margin-top: 48px !important; padding-top: 20px; }
+.section-alt { background: var(--sand-soft); }
+
 @media (max-width: 800px) {
   .header-inner { flex-wrap: wrap; padding: 16px 20px; }
   .main-nav { order: 3; margin: 0; width: 100%; }
@@ -124,4 +140,8 @@ h2 { font-size: clamp(32px, 4vw, 48px); line-height: 1; }
   .tv-table th, .tv-table td { padding: 16px 12px; }
   .estimator { position: static; }
   .footer-inner { align-items: start; flex-direction: column; gap: 10px; }
+  .story p { font-size: 16px; }
+  .story-intro { font-size: 17px !important; }
+  .story-callout { padding: 22px; }
+  .chart { padding: 12px; }
 }
